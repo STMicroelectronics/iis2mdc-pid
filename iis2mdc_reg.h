@@ -354,10 +354,10 @@ typedef union
  * The __weak directive allows the final application to overwrite
  * them with a custom implementation.
  */
-int32_t __weak iis2mdc_read_reg(stmdev_ctx_t *ctx, uint8_t reg,
+int32_t iis2mdc_read_reg(stmdev_ctx_t *ctx, uint8_t reg,
                                 uint8_t *data,
                                 uint16_t len);
-int32_t __weak iis2mdc_write_reg(stmdev_ctx_t *ctx, uint8_t reg,
+int32_t iis2mdc_write_reg(stmdev_ctx_t *ctx, uint8_t reg,
                                  uint8_t *data,
                                  uint16_t len);
 
