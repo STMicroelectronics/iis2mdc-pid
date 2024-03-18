@@ -1164,7 +1164,7 @@ int32_t iis2mdc_int_gen_source_get(const stmdev_ctx_t *ctx,
   * @retval          interface status (MANDATORY: return 0 -> no Error)
   *
   */
-int32_t iis2mdc_int_gen_treshold_set(const stmdev_ctx_t *ctx, int16_t val)
+int32_t iis2mdc_int_gen_threshold_set(const stmdev_ctx_t *ctx, int16_t val)
 {
   uint8_t buff[2];
   int32_t ret;
@@ -1186,7 +1186,7 @@ int32_t iis2mdc_int_gen_treshold_set(const stmdev_ctx_t *ctx, int16_t val)
   * @retval          interface status (MANDATORY: return 0 -> no Error)
   *
   */
-int32_t iis2mdc_int_gen_treshold_get(const stmdev_ctx_t *ctx, int16_t *val)
+int32_t iis2mdc_int_gen_threshold_get(const stmdev_ctx_t *ctx, int16_t *val)
 {
   uint8_t buff[2];
   int32_t ret;

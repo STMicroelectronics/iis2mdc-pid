@@ -483,8 +483,8 @@ int32_t iis2mdc_int_gen_conf_get(const stmdev_ctx_t *ctx,
 int32_t iis2mdc_int_gen_source_get(const stmdev_ctx_t *ctx,
                                    iis2mdc_int_source_reg_t *val);
 
-int32_t iis2mdc_int_gen_treshold_set(const stmdev_ctx_t *ctx, int16_t val);
-int32_t iis2mdc_int_gen_treshold_get(const stmdev_ctx_t *ctx, int16_t *val);
+int32_t iis2mdc_int_gen_threshold_set(const stmdev_ctx_t *ctx, int16_t val);
+int32_t iis2mdc_int_gen_threshold_get(const stmdev_ctx_t *ctx, int16_t *val);
 
 typedef enum
 {
