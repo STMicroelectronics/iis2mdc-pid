@@ -94,7 +94,7 @@ This directory contains the IIS2MDC component drivers.
 
 </div>
 
-<input type="checkbox" id="collapse-section6" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section6" aria-hidden="true">
 <label for="collapse-section6" aria-hidden="true">V2.0.2 / 19-Jun-2024</label>
 <div>
 
@@ -105,7 +105,20 @@ This directory contains the IIS2MDC component drivers.
 ##
 
 </div>
+
+<input type="checkbox" id="collapse-section7" checked aria-hidden="true">
+<label for="collapse-section7" aria-hidden="true">V2.0.3 / 07-Apr-2025</label>
+<div>
+
+## Main changes
+
+- Fix MISRA-C errors
+
+##
+
+</div>
 :::
+
 
 :::
 :::
