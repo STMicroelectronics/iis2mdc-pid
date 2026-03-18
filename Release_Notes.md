@@ -30,7 +30,20 @@ This directory contains the IIS2MDC component drivers.
 # Update history
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section9" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section10" checked aria-hidden="true">
+<label for="collapse-section10" aria-hidden="true">V2.2.1 / 18-Mar-2026</label>
+<div>
+
+## Main changes
+
+- Change switch cases to use hex values
+- Re-order update history with most updated on top
+
+##
+
+</div>
+
+<input type="checkbox" id="collapse-section9" aria-hidden="true">
 <label for="collapse-section9" aria-hidden="true">V2.2.0 / 07-Oct-2025</label>
 <div>
 
@@ -42,6 +55,7 @@ This directory contains the IIS2MDC component drivers.
 ##
 
 </div>
+
 <input type="checkbox" id="collapse-section8" aria-hidden="true">
 <label for="collapse-section8" aria-hidden="true">V2.1.0 / 07-Jul-2025</label>
 <div>
